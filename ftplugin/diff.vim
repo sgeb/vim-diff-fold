@@ -14,7 +14,7 @@ let b:did_ftplugin = 1
 setlocal nomodeline formatoptions-=croq formatoptions+=tl
 setlocal foldmethod=expr
 setlocal foldexpr=DiffFoldLevel()
-setlocal foldcolumn=2
+setlocal foldcolumn=3
 
 " Get fold level for diff mode
 " Works with normal, context, unified, rcs, ed, subversion and git diffs.
